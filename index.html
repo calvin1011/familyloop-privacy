@@ -1,165 +1,341 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
-    <title>Family Loop - Privacy Policy</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Loop - Privacy Policy</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1 { color: #2c3e50; }
-        h2 { color: #3498db; margin-top: 30px; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            color: #3498db;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #34495e;
+        }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: #e8f4fd;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
     </style>
 </head>
 <body>
-    # Privacy Policy for Family Loop
+    <div class="container">
+        <header>
+            <h1>Privacy Policy for Family Loop</h1>
+            <p class="last-updated"><strong>Last Updated:</strong> December 24, 2024</p>
+        </header>
 
-    **Last Updated:** December 24, 2024
+        <section>
+            <h2>Introduction</h2>
+            <p>Family Loop ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application collects, uses, and safeguards your information.</p>
+        </section>
 
-    ## Introduction
+        <section>
+            <h2>Information We Collect</h2>
 
-    Family Loop ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application collects, uses, and safeguards your information.
+            <h3>Information You Provide</h3>
+            <ul>
+                <li><strong>Account Information:</strong> Email address, display name, and profile information when you create an account</li>
+                <li><strong>Interaction Logs:</strong> Records of communication you manually log with your contacts (dates, types, notes)</li>
+                <li><strong>Goals and Events:</strong> Communication goals and family events you create in the app</li>
+            </ul>
 
-    ## Information We Collect
+            <h3>Information Automatically Collected (With Your Permission)</h3>
+            <ul>
+                <li><strong>Contacts:</strong> Names and phone numbers from your device's contact list</li>
+                <li><strong>Call Logs:</strong> Call history to automatically detect when you've called contacts (Android only)</li>
+                <li><strong>SMS Messages:</strong> Text message metadata (date, contact) to automatically detect communication (Android only)</li>
+            </ul>
+        </section>
 
-    ### Information You Provide
-    - **Account Information:** Email address, display name, and profile information when you create an account
-    - **Interaction Logs:** Records of communication you manually log with your contacts (dates, types, notes)
-    - **Goals and Events:** Communication goals and family events you create in the app
+        <section>
+            <h2>How We Use Your Information</h2>
+            <p>We use your information to:</p>
+            <ul>
+                <li>Filter and organize your contacts intelligently</li>
+                <li>Track your communication patterns with family and friends</li>
+                <li>Automatically detect phone calls and text messages (if you enable this feature)</li>
+                <li>Calculate relationship health scores and provide insights</li>
+                <li>Send reminders about communication goals</li>
+                <li>Sync your data across your devices (via Firebase)</li>
+            </ul>
+        </section>
 
-    ### Information Automatically Collected (With Your Permission)
-    - **Contacts:** Names and phone numbers from your device's contact list
-    - **Call Logs:** Call history to automatically detect when you've called contacts (Android only)
-    - **SMS Messages:** Text message metadata (date, contact) to automatically detect communication (Android only)
+        <section>
+            <h2>Data Storage and Security</h2>
 
-    ## How We Use Your Information
+            <h3>On-Device Processing</h3>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>Call logs and SMS data are processed entirely on your device</strong></li>
+                    <li>We do NOT upload your call logs, SMS content, or raw contact data to our servers</li>
+                    <li>Only anonymized interaction metadata (timestamps, contact IDs) is stored in the cloud</li>
+                </ul>
+            </div>
 
-    We use your information to:
-    - Filter and organize your contacts intelligently
-    - Track your communication patterns with family and friends
-    - Automatically detect phone calls and text messages (if you enable this feature)
-    - Calculate relationship health scores and provide insights
-    - Send reminders about communication goals
-    - Sync your data across your devices (via Firebase)
+            <h3>Cloud Storage (Firebase)</h3>
+            <p>We store the following in Google Firebase:</p>
+            <ul>
+                <li>Your account information (email, display name)</li>
+                <li>Interaction logs you create (date, type, optional notes)</li>
+                <li>Communication goals and family events</li>
+                <li>Relationship insights and scores</li>
+            </ul>
 
-    ## Data Storage and Security
+            <p>All cloud data is:</p>
+            <ul>
+                <li>Encrypted in transit (HTTPS/TLS)</li>
+                <li>Encrypted at rest</li>
+                <li>Protected by Firebase Authentication</li>
+                <li>Only accessible to your account</li>
+            </ul>
+        </section>
 
-    ### On-Device Processing
-    - **Call logs and SMS data are processed entirely on your device**
-    - We do NOT upload your call logs, SMS content, or raw contact data to our servers
-    - Only anonymized interaction metadata (timestamps, contact IDs) is stored in the cloud
+        <section>
+            <h2>Permissions We Request</h2>
 
-    ### Cloud Storage (Firebase)
-    We store the following in Google Firebase:
-    - Your account information (email, display name)
-    - Interaction logs you create (date, type, optional notes)
-    - Communication goals and family events
-    - Relationship insights and scores
+            <h3>Required Permissions</h3>
+            <ul>
+                <li><strong>Contacts (READ_CONTACTS):</strong> To load and filter your contact list</li>
+                <li><strong>Internet:</strong> To sync data with Firebase and enable authentication</li>
+            </ul>
 
-    All cloud data is:
-    - Encrypted in transit (HTTPS/TLS)
-    - Encrypted at rest
-    - Protected by Firebase Authentication
-    - Only accessible to your account
+            <h3>Optional Permissions (You Control)</h3>
+            <ul>
+                <li><strong>Call Log (READ_CALL_LOG):</strong> To automatically detect phone calls - <em>Android only</em></li>
+                <li><strong>SMS (READ_SMS):</strong> To automatically detect text messages - <em>Android only</em></li>
+            </ul>
 
-    ## Permissions We Request
+            <div class="warning-box">
+                <strong>Important:</strong> You can use Family Loop without granting call log or SMS permissions. These are optional features for automatic tracking. You can always track interactions manually.
+            </div>
+        </section>
 
-    ### Required Permissions
-    - **Contacts (READ_CONTACTS):** To load and filter your contact list
-    - **Internet:** To sync data with Firebase and enable authentication
+        <section>
+            <h2>Data Sharing</h2>
 
-    ### Optional Permissions (You Control)
-    - **Call Log (READ_CALL_LOG):** To automatically detect phone calls - *Android only*
-    - **SMS (READ_SMS):** To automatically detect text messages - *Android only*
+            <h3>We do NOT:</h3>
+            <ul>
+                <li>Sell your personal information to third parties</li>
+                <li>Share your contact information with advertisers</li>
+                <li>Use your data for purposes other than providing the Family Loop service</li>
+                <li>Access the content of your text messages or calls</li>
+            </ul>
 
-    **Important:** You can use Family Loop without granting call log or SMS permissions. These are optional features for automatic tracking. You can always track interactions manually.
+            <h3>We may share data only in these situations:</h3>
+            <ul>
+                <li><strong>With your consent:</strong> If you explicitly agree to share specific information</li>
+                <li><strong>Legal requirements:</strong> If required by law, court order, or government request</li>
+                <li><strong>Service providers:</strong> Firebase (Google) hosts our data - see <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+            </ul>
+        </section>
 
-    ## Data Sharing
+        <section>
+            <h2>Your Rights and Choices</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li><strong>Access your data:</strong> View all data we've collected about you</li>
+                <li><strong>Export your data:</strong> Download a copy of your information (available in app settings)</li>
+                <li><strong>Delete your data:</strong> Permanently delete your account and all associated data</li>
+                <li><strong>Revoke permissions:</strong> Turn off automatic detection at any time</li>
+                <li><strong>Opt-out of features:</strong> Use the app without SMS/call log access</li>
+            </ul>
 
-    We do NOT:
-    - Sell your personal information to third parties
-    - Share your contact information with advertisers
-    - Use your data for purposes other than providing the Family Loop service
-    - Access the content of your text messages or calls
+            <h3>How to Exercise Your Rights</h3>
+            <ul>
+                <li><strong>Export Data:</strong> Go to Settings → Data Management → Export All Data</li>
+                <li><strong>Delete Data:</strong> Go to Settings → Data Management → Delete All Data</li>
+                <li><strong>Delete Account:</strong> Contact us at support@familyloop.app</li>
+                <li><strong>Revoke Permissions:</strong> Go to your device Settings → Apps → Family Loop → Permissions</li>
+            </ul>
+        </section>
 
-    We may share data only in these situations:
-    - **With your consent:** If you explicitly agree to share specific information
-    - **Legal requirements:** If required by law, court order, or government request
-    - **Service providers:** Firebase (Google) hosts our data - see [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
+        <section>
+            <h2>Data Retention</h2>
+            <ul>
+                <li><strong>Active Accounts:</strong> We retain your data as long as your account is active</li>
+                <li><strong>Deleted Accounts:</strong> Data is permanently deleted within 30 days of account deletion</li>
+                <li><strong>Inactive Accounts:</strong> Accounts inactive for 2+ years may be deleted after email notification</li>
+            </ul>
+        </section>
 
-    ## Your Rights and Choices
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>Family Loop is not intended for children under 13. We do not knowingly collect information from children under 13. If you believe we've collected information from a child under 13, please contact us immediately.</p>
+        </section>
 
-    You have the right to:
-    - **Access your data:** View all data we've collected about you
-    - **Export your data:** Download a copy of your information (available in app settings)
-    - **Delete your data:** Permanently delete your account and all associated data
-    - **Revoke permissions:** Turn off automatic detection at any time
-    - **Opt-out of features:** Use the app without SMS/call log access
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy periodically. We will notify you of significant changes by:</p>
+            <ul>
+                <li>Posting the new policy in the app</li>
+                <li>Sending an email notification (if we have your email)</li>
+                <li>Updating the "Last Updated" date at the top of this policy</li>
+            </ul>
+        </section>
 
-    ### How to Exercise Your Rights
-    - **Export Data:** Go to Settings → Data Management → Export All Data
-    - **Delete Data:** Go to Settings → Data Management → Delete All Data
-    - **Delete Account:** Contact us at support@familyloop.app
-    - **Revoke Permissions:** Go to your device Settings → Apps → Family Loop → Permissions
+        <section>
+            <h2>Third-Party Services</h2>
+            <p>Family Loop uses these third-party services:</p>
+            <ul>
+                <li><strong>Firebase (Google):</strong> Authentication, database, and cloud storage - <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
+                <li><strong>Google Sign-In:</strong> Optional authentication method - <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+            </ul>
+        </section>
 
-    ## Data Retention
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have questions about this Privacy Policy or your data, contact us at:</p>
+            <ul>
+                <li><strong>Email:</strong> support@familyloop.app</li>
+                <li><strong>In-App:</strong> Settings → Help & Support → Contact Us</li>
+            </ul>
+        </section>
 
-    - **Active Accounts:** We retain your data as long as your account is active
-    - **Deleted Accounts:** Data is permanently deleted within 30 days of account deletion
-    - **Inactive Accounts:** Accounts inactive for 2+ years may be deleted after email notification
+        <section>
+            <h2>California Privacy Rights (CCPA)</h2>
+            <p>If you're a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):</p>
+            <ul>
+                <li>Right to know what personal information we collect</li>
+                <li>Right to delete your personal information</li>
+                <li>Right to opt-out of sale of personal information (we don't sell data)</li>
+                <li>Right to non-discrimination for exercising your rights</li>
+            </ul>
+            <p>To exercise these rights, contact us at the email above.</p>
+        </section>
 
-    ## Children's Privacy
+        <section>
+            <h2>European Privacy Rights (GDPR)</h2>
+            <p>If you're in the European Economic Area (EEA), you have rights under the General Data Protection Regulation (GDPR):</p>
+            <ul>
+                <li>Right of access, rectification, erasure, and data portability</li>
+                <li>Right to restrict processing</li>
+                <li>Right to object to processing</li>
+                <li>Right to withdraw consent</li>
+            </ul>
 
-    Family Loop is not intended for children under 13. We do not knowingly collect information from children under 13. If you believe we've collected information from a child under 13, please contact us immediately.
+            <h3>Our legal basis for processing:</h3>
+            <ul>
+                <li><strong>Consent:</strong> For optional features like automatic detection</li>
+                <li><strong>Contract:</strong> To provide the Family Loop service</li>
+                <li><strong>Legitimate interests:</strong> To improve and secure our service</li>
+            </ul>
+        </section>
 
-    ## Changes to This Policy
-
-    We may update this Privacy Policy periodically. We will notify you of significant changes by:
-    - Posting the new policy in the app
-    - Sending an email notification (if we have your email)
-    - Updating the "Last Updated" date at the top of this policy
-
-    ## Third-Party Services
-
-    Family Loop uses these third-party services:
-    - **Firebase (Google):** Authentication, database, and cloud storage - [Privacy Policy](https://firebase.google.com/support/privacy)
-    - **Google Sign-In:** Optional authentication method - [Privacy Policy](https://policies.google.com/privacy)
-
-    ## Contact Us
-
-    If you have questions about this Privacy Policy or your data, contact us at:
-
-    - **In-App:** Settings → Help & Support → Contact Us
-
-    ## California Privacy Rights (CCPA)
-
-    If you're a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
-    - Right to know what personal information we collect
-    - Right to delete your personal information
-    - Right to opt-out of sale of personal information (we don't sell data)
-    - Right to non-discrimination for exercising your rights
-
-    ## European Privacy Rights (GDPR)
-
-    If you're in the European Economic Area (EEA), you have rights under the General Data Protection Regulation (GDPR):
-    - Right of access, rectification, erasure, and data portability
-    - Right to restrict processing
-    - Right to object to processing
-    - Right to withdraw consent
-
-    Our legal basis for processing:
-    - **Consent:** For optional features like automatic detection
-    - **Contract:** To provide the Family Loop service
-    - **Legitimate interests:** To improve and secure our service
-
-    ---
-
-    **By using Family Loop, you agree to this Privacy Policy.**
-
-    If you do not agree, please do not use the app.
+        <footer>
+            <p><strong>By using Family Loop, you agree to this Privacy Policy.</strong></p>
+            <p>If you do not agree, please do not use the app.</p>
+            <p style="margin-top: 20px;">© 2024 Family Loop. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
